@@ -36,7 +36,7 @@
 function sumOfTwo(a, b, v) {
     var answerNumber //the goal number
     
-    //iterate through array 1. Find what number is needed to add to a[i], search b for that number
+    //iterate through array a. Find what number is needed to add to a[i], search b for that number
     for(var i = 0; i < a.length; i++){
         answerNumber = v - a[i];
         if(b.indexOf(answerNumber) >= 0){
@@ -45,3 +45,5 @@ function sumOfTwo(a, b, v) {
     }
     return false;
 }
+
+
